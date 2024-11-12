@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    font-family: 'Open Sans';
+}
+
+
+nav {
+    padding: 10px 30px;
+    background-color: #2b2b2b;
+    color: #f6f6f6;
+    margin: auto;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+}
+
+#logo {
+    border-radius: 50%;
+    height: 100%;
+    width: auto;
+}
+
+a {
+    color: #f6f6f6;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid #f6f6f6;
+}
+
+#brand {
+    color: #ffcb73;
+    background-color: transparent;
+    width: 10%;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+span>a {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+}
+
+.fa-solid {
+    background-color: transparent;
+}
+
+#navbar {
+    width: 85%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#icons {
+    background-color: transparent;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-around;
+    width: 07%;
+}
+
+.active {
+    font-weight: 700;
+    border-bottom: 2px solid #ffcb73;
+}
+
+#mainHeading {
+    width: 100%;
+    height: fit-content;
+    padding: 30px;
+    background: rgb(255, 203, 115);
+    background: linear-gradient(45deg, rgba(255, 203, 115, 1) 0%, rgba(43, 43, 43, 1) 40%, rgba(56, 53, 47, 1) 60%, rgba(255, 203, 115, 1) 100%);
+}
+
+#mainHeading>h1 {
+    background-color: transparent;
+    text-align: center;
+    color: #ffcb73;
+    margin: auto;
+    font-family: 'Dancing Script';
+    font-size: 100px;
+}
+
+#contact {
+    width: 100%;
+    height: fit-content;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #2b2b2b;
+}
+
+#contact>* {
+    width: 50%;
+}
+
+#left>p {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.socials {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    color: #2b2b2b;
+}
+
+.socials>a>i:hover{
+    color: #ffcb73;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+form>input,
+textarea {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    border: 3px solid #ffcb73;
+}
+
+form>input:hover,
+textarea:hover {
+    border: 3px solid #2b2b2bc2;
+    box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 13px -1px rgba(0,0,0,0.75);
+}
+
+textarea {
+    resize: none;
+}
+
+.whiteButton {
+    border: none;
+    background-color: #2b2b2b;
+    border-radius: 40px;
+    color: #f6f6f6;
+    font-size: 1rem;
+    text-align: center;
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+.whiteButton:hover {
+    border: none;
+    color: #2b2b2b;
+    background-color: #ffcb73;
+    box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.49);
+    -webkit-box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.49);
+    -moz-box-shadow: 1px 1px 16px 1px rgba(0, 0, 0, 0.49);
+}
+
+
+footer {
+    width: 100%;
+    height: fit-content;
+    background-color: #ffcb73;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+footer>section>h4 {
+    margin-bottom: 10px;
+}
+
+ul {
+    line-height: 35px;
+}
+
+#sec1 {
+    width: 70%;
+    padding: 10px;
+    line-height: 20px;
+}
+
+.footer_2 {
+    width: 30%;
+    padding-left: 70px;
+}
+
+footer>*,
+footer>*>*,
+footer>*>*>* {
+    background-color: transparent;
+    margin: 0;
+}
+
+#sec1>span>h2 {
+    color: #2b2b2b;
+    font-family: 'Dancing Script';
+}
+
+#logo2 {
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+}
+
+#socials>ul>li>a>i {
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+#socials>ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+#sites>a:hover {
+    border-bottom: none;
+}
+
+#trademark {
+    background-color: #2f2f2f;
+    color: #f6f6f6;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#trademark>* {
+    background-color: transparent;
+    margin: 0;
+}
+
+ul>li>a {
+    color: #2b2b2b;
+    font-weight: 500;
+}
+
+ul>li>a:hover {
+    border-bottom: 2px solid #2b2b2b;
+}
+
+@media (max-width: 1024px) {
+    nav {
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+
+    #navbar {
+        width: 75%;
+        justify-content: space-between;
+    }
+
+    #icons {
+        width: 10%;
+    }
+    #mainHeading h1 {
+        font-size: 4rem;
+    }
+
+    #contact {
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    #contact>* {
+        width: 80%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .footer_2 {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #brand {
+        font-size: 1.3rem;
+        padding-left: 0;
+    }
+
+    #navbar {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    #mainHeading h1 {
+        font-size: 3rem;
+    }
+
+    #contact {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    #contact>* {
+        width: 100%;
+    }
+
+    .socials {
+        gap: 10px;
+        font-size: 1.2rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer_2, #sec1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #sec1 {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    #mainHeading h1 {
+        font-size: 2.5rem;
+    }
+
+    .whiteButton {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+    }
+
+    #contact {
+        padding: 10px;
+    }
+
+    form>input, textarea {
+        padding: 8px 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
